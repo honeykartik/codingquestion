@@ -1,0 +1,7 @@
+git add . -> for adding a file in folder
+git commit -m -> to take records
+git log ->for records
+git remote -v -> to get the repository link
+
+pwd -> to see the present working directory
+ git remote add origin -> to add file to directory
