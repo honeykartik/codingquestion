@@ -6,8 +6,7 @@ int main()
     int n;
     int sum;
      cin>>n;
-    int a[];
-    int n=sizeof(a)/sizeof(a[0]);
+    int a[n];
     for(int i=0;i<10;i++)
        cin>>a[i];
      cin>>sum;
