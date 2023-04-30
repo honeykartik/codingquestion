@@ -1,0 +1,33 @@
+//two pointer approach
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    int sum;
+     cin>>n;
+    int a[];
+    int n=sizeof(a)/sizeof(a[0]);
+    for(int i=0;i<10;i++)
+       cin>>a[i];
+     cin>>sum;
+    int i=0;
+    int j=n-1;
+    while(i<j)
+    {
+        if(a[i]+a[j]==sum)
+           {
+               cout<<'('<<a[i]<<','<<a[j]<<')';
+               i++;
+               j--;
+           }
+        else if(a[i]+a[j]>sum)
+          {
+              j--;
+          }
+        else
+          i++;
+        
+    }
+    return 0;
+}
